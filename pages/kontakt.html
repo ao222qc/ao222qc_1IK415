@@ -5,10 +5,34 @@
         <title>Bloggindex</title>
     </head>
 <body>
+    <h1>Kontaktsida</h1>
     <ul>
         <li><a href="../index.html">Start</a></li>
         <li><a href="/pages/laborationer.html">Laborationer</a></li>
         <li><a href="/pages/presentation.html">Presentation</a></li>
         <li><a href="/pages/kontakt.html">Kontakt</a></li>
     </ul>
+ 
+<FORM action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+    <fieldset>
+    <LEGEND>Kontakta mig</LEGEND>
+    
+    <select name="Ärendetyp">
+        <option value="Frågor">Frågor</option>
+        <option value="Synpunkter">Synpunkter</option>
+        <option value="Övrigt">Övrigt</option>
+    </select>
+    <p>Rubrik</p>
+    <input type="text" name="Rubrik" id="Rubrik"/>
+    <p>Kommentarsfält</p>
+    <textarea name="Kommentarsfält" id="Kommentarsfält" cols="40" rows="4"></textarea>
+    </fieldset>
+    <p>Tack för din feedback!</p>
+    <input type="submit" value="Skicka Meddelande"/>
+    <fieldset>
+    <LEGEND>Information om dig</LEGEND>
+    <input type="checkbox" name="Kontakt" value="Mail">Kontakta via email <br/>
+    <input type="checkbox" name="Kontakt" value="Telefon">Kontakta via telefon
+    </fieldset>
+</FORM>
 </body>    
